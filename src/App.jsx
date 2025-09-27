@@ -8,8 +8,8 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/">
-            <Route index element={<h1>Home Page</h1>} />
-            <Route path="login" element={<Login/>} />
+            <Route index  element={<Login/>} />
+            <Route path="Home" element={<h1>Home Page</h1>} />
             <Route path="register" element={<h1>Register Page</h1>} />
           </Route>
           <Route path="*" element={<h1>Page Not Found | Error 404</h1>} />
